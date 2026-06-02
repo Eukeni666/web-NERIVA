@@ -9,8 +9,8 @@
 /* ============= RESET =====================*/
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*======== COLORES ==============*/
@@ -22,7 +22,9 @@ body {
     --hover-text: black;
 }
 
-/* ====== NAV ========== */
+/* ===================== 
+          NAV
+======================== */
 
 nav {
   margin: 0px 20px 60px;
@@ -50,33 +52,26 @@ nav a:hover {
             CONTENIDO 
 =================================*/
 
-/*.hero {
-    min-height: 100vh;
-    background-image: url("img/live2.jpg");
-    background-size: 120%;
-    background-position: top;
-}*/
-
 body {
   width: 100%;
   font-family: "Exo 2", sans-serif;
   background-color: black;
   color: var(--text-main);
 
-  background-image: url(img/live2.jpg);
-  background-repeat: repeat;
-  background-position: top;
+  background-image: url(img/live2.jpg), url(img/live2.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
   background-size: 130%;
 }
 
 header {
-  margin-bottom: 100px;
 }
 
 aside {
-  float: right;
-  width: 60%;
-  margin: 0px;
+/*  float: right; */
+  margin: 220px auto;
+  width: 50%;
+
 }
 
 section {
@@ -133,25 +128,47 @@ footer {
           TIPOGRAFÍA 
 ==============================*/
 
-h1, h2, .centrado {
-  text-align: center;
+.centrado {
+  text-align: right;
 }
 
-h1 {
+/*h1 {
   font-family: "Orbitron", sans-serif;
   font-weight: 500;
   font-size: clamp(2.6em, 8vw, 5em);
   letter-spacing: 0.45em;
   color: #dce1e9;
-  margin: 180px 0px 0px 0px;
-}
+  margin: 290px 0px 0px 0px;
+  text-align: center;
+}*/
 
-h2 {
+/*h2 {
   color: rgb(239, 181, 115);
   font-weight: 400;
   font-size: clamp(2.35em, 7.07vw, 4.1em);
   letter-spacing: 0.4em;
   margin: 0px;
+}*/
+
+.logo {
+  display: flex;
+  gap: 2px; /* 👈 kerning del logo */
+  align-items: center;
+}
+
+.letter {
+  height: 90px; /* tamaño del logo */
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(239, 181, 115);
+  font-weight: 400;
+  font-size: clamp(1.4em, 7.07vw, 4.1em);
+  letter-spacing: 0.5em;
+  position: center;
+  margin: 0px;  
 }
 
 h4 {
@@ -183,6 +200,13 @@ img {
   width: 70%;
   display: block;
   margin: 20px auto;
+}
+
+header img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 240px auto 0px auto;
 }
 
 
