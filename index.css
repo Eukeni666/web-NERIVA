@@ -102,16 +102,12 @@ section {
   border-radius: 10px;
 }
 
-ul {
+#noticias ul {
   list-style-type: circle;
   padding-left: 10px;
 }
 
-li {
-  margin-bottom: 20px;
-}
-
-#noticias li {
+#noticias ul li {
   margin-bottom: 20px;
 }
 
@@ -136,9 +132,27 @@ li {
   background-repeat: no-repeat;
 }
 
+#conciertos ul {
+  list-style-type: circle;
+  padding-left: 10px;
+} 
+
+#conciertos ul li {
+  margin-bottom: 20px;
+}
+
 #multimedia {
   background-image: none;
   background-color: black;
+}
+
+#multimedia ul {
+  list-style-type: circle;
+  padding-left: 10px;
+} 
+
+#multimedia ul li {
+  margin-bottom: 20px;
 }
 
 #contacta {
@@ -197,7 +211,7 @@ p {
 
 .enfasis {
   color: white;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 /*=========================== 
@@ -221,7 +235,7 @@ p {
   width: 80%;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto 30px auto;
 }
 
 .redes {
