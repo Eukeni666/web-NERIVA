@@ -193,7 +193,7 @@ p {
 
 .enfasis {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /*=========================== 
@@ -229,7 +229,7 @@ p {
 }
 
 .redes img {
-  width: 60px;
+  width: 40px;
   height: auto;
   display: block;
 }
@@ -294,7 +294,7 @@ p {
   }
 
   .redes img {
-    width: 40px;
+    width: 20px;
   }
 
 }
